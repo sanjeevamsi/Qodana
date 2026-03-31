@@ -13,7 +13,11 @@ public class Calculation {
     }
 
     public void printMessage() {
-        int a = 10;
-        System.out.println("Hellloo!!!");
+        String s = null;
+        System.out.println(s.length());
+    }
+
+    public int divide(int a, int b) {
+        return a/b;
     }
 }
