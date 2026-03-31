@@ -13,8 +13,8 @@ public class Calculation {
     }
 
     public void printMessage() {
-        String s = null;
-        System.out.println(s.length());
+        int a = 0;
+        System.out.println("hello!!");
     }
 
     public int divide(int a, int b) {
