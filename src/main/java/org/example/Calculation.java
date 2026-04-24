@@ -27,15 +27,6 @@ public class Calculation {
         System.out.println(data);
     }
 
-    public void riskyOperation() {
-        try {
-            String s = null;
-            s.length();
-        } catch (Exception e) {
-
-        }
-    }
-
     public double calculateSalaryAfterTax(double salary) {
         double tax = salary * 0.20;
         double result = salary - tax;
