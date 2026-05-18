@@ -33,11 +33,4 @@ public class Calculation {
         System.out.println("After tax: " + result);
         return result;
     }
-
-    public double calculateBonusAfterTax(double bonus) {
-        double tax = bonus * 0.20;
-        double result = bonus - tax;
-        System.out.println("After tax: " + result);
-        return result;
-    }
 }
